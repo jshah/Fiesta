@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C09D337714D15AE000786DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09D337614D15AE000786DB9 /* Foundation.framework */; };
+		C09D337A14D15AE000786DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C09D337914D15AE000786DB9 /* main.m */; };
+		C09D337E14D15AE000786DB9 /* ecs189h_hw1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C09D337D14D15AE000786DB9 /* ecs189h_hw1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C09D337014D15AE000786DB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C09D337E14D15AE000786DB9 /* ecs189h_hw1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C09D337214D15AE000786DB9 /* ecs189h-hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ecs189h-hw1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09D337614D15AE000786DB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C09D337914D15AE000786DB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C09D337C14D15AE000786DB9 /* ecs189h-hw1-Prefix.pch */ = {isa = PBXFileReference; path = "ecs189h-hw1-Prefix.pch"; sourceTree = "<group>"; };
+		C09D337D14D15AE000786DB9 /* ecs189h_hw1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ecs189h_hw1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09D336F14D15AE000786DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09D337714D15AE000786DB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09D336714D15ADF00786DB9 = {
+			isa = PBXGroup;
+			children = (
+				C09D337814D15AE000786DB9 /* ecs189h-hw1 */,
+				C09D337514D15AE000786DB9 /* Frameworks */,
+				C09D337314D15AE000786DB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09D337314D15AE000786DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09D337214D15AE000786DB9 /* ecs189h-hw1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09D337514D15AE000786DB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09D337614D15AE000786DB9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09D337814D15AE000786DB9 /* ecs189h-hw1 */ = {
+			isa = PBXGroup;
+			children = (
+				C09D337914D15AE000786DB9 /* main.m */,
+				C09D337D14D15AE000786DB9 /* ecs189h_hw1.1 */,
+				C09D337B14D15AE000786DB9 /* Supporting Files */,
+			);
+			path = "ecs189h-hw1";
+			sourceTree = "<group>";
+		};
+		C09D337B14D15AE000786DB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C09D337C14D15AE000786DB9 /* ecs189h-hw1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09D337114D15AE000786DB9 /* ecs189h-hw1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09D338114D15AE000786DB9 /* Build configuration list for PBXNativeTarget "ecs189h-hw1" */;
+			buildPhases = (
+				C09D336E14D15AE000786DB9 /* Sources */,
+				C09D336F14D15AE000786DB9 /* Frameworks */,
+				C09D337014D15AE000786DB9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ecs189h-hw1";
+			productName = "ecs189h-hw1";
+			productReference = C09D337214D15AE000786DB9 /* ecs189h-hw1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09D336914D15ADF00786DB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "UC Davis";
+			};
+			buildConfigurationList = C09D336C14D15ADF00786DB9 /* Build configuration list for PBXProject "ecs189h-hw1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C09D336714D15ADF00786DB9;
+			productRefGroup = C09D337314D15AE000786DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09D337114D15AE000786DB9 /* ecs189h-hw1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09D336E14D15AE000786DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09D337A14D15AE000786DB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C09D337F14D15AE000786DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C09D338014D15AE000786DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C09D338214D15AE000786DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ecs189h-hw1/ecs189h-hw1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C09D338314D15AE000786DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ecs189h-hw1/ecs189h-hw1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09D336C14D15ADF00786DB9 /* Build configuration list for PBXProject "ecs189h-hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09D337F14D15AE000786DB9 /* Debug */,
+				C09D338014D15AE000786DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09D338114D15AE000786DB9 /* Build configuration list for PBXNativeTarget "ecs189h-hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09D338214D15AE000786DB9 /* Debug */,
+				C09D338314D15AE000786DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C09D336914D15ADF00786DB9 /* Project object */;
+}
