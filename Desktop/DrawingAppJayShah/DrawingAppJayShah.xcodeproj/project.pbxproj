@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C039D1911517EE74007FFD0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039D1901517EE74007FFD0B /* UIKit.framework */; };
+		C039D1931517EE74007FFD0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039D1921517EE74007FFD0B /* Foundation.framework */; };
+		C039D1951517EE74007FFD0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039D1941517EE74007FFD0B /* CoreGraphics.framework */; };
+		C039D19B1517EE74007FFD0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C039D1991517EE74007FFD0B /* InfoPlist.strings */; };
+		C039D19D1517EE74007FFD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C039D19C1517EE74007FFD0B /* main.m */; };
+		C039D1A11517EE74007FFD0B /* ecs189AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C039D1A01517EE74007FFD0B /* ecs189AppDelegate.m */; };
+		C039D1A41517EE74007FFD0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C039D1A21517EE74007FFD0B /* MainStoryboard.storyboard */; };
+		C039D1A71517EE74007FFD0B /* ecs189ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C039D1A61517EE74007FFD0B /* ecs189ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C039D18C1517EE74007FFD0B /* DrawingAppJayShah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingAppJayShah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C039D1901517EE74007FFD0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C039D1921517EE74007FFD0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C039D1941517EE74007FFD0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C039D1981517EE74007FFD0B /* DrawingAppJayShah-Info.plist */ = {isa = PBXFileReference; path = "DrawingAppJayShah-Info.plist"; sourceTree = "<group>"; };
+		C039D19A1517EE74007FFD0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C039D19C1517EE74007FFD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C039D19E1517EE74007FFD0B /* DrawingAppJayShah-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingAppJayShah-Prefix.pch"; sourceTree = "<group>"; };
+		C039D19F1517EE74007FFD0B /* ecs189AppDelegate.h */ = {isa = PBXFileReference; path = ecs189AppDelegate.h; sourceTree = "<group>"; };
+		C039D1A01517EE74007FFD0B /* ecs189AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ecs189AppDelegate.m; sourceTree = "<group>"; };
+		C039D1A31517EE74007FFD0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C039D1A51517EE74007FFD0B /* ecs189ViewController.h */ = {isa = PBXFileReference; path = ecs189ViewController.h; sourceTree = "<group>"; };
+		C039D1A61517EE74007FFD0B /* ecs189ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ecs189ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C039D1891517EE74007FFD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039D1911517EE74007FFD0B /* UIKit.framework in Frameworks */,
+				C039D1931517EE74007FFD0B /* Foundation.framework in Frameworks */,
+				C039D1951517EE74007FFD0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C039D1811517EE73007FFD0B = {
+			isa = PBXGroup;
+			children = (
+				C039D1961517EE74007FFD0B /* DrawingAppJayShah */,
+				C039D18F1517EE74007FFD0B /* Frameworks */,
+				C039D18D1517EE74007FFD0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C039D18D1517EE74007FFD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C039D18C1517EE74007FFD0B /* DrawingAppJayShah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C039D18F1517EE74007FFD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C039D1901517EE74007FFD0B /* UIKit.framework */,
+				C039D1921517EE74007FFD0B /* Foundation.framework */,
+				C039D1941517EE74007FFD0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C039D1961517EE74007FFD0B /* DrawingAppJayShah */ = {
+			isa = PBXGroup;
+			children = (
+				C039D19F1517EE74007FFD0B /* ecs189AppDelegate.h */,
+				C039D1A01517EE74007FFD0B /* ecs189AppDelegate.m */,
+				C039D1A21517EE74007FFD0B /* MainStoryboard.storyboard */,
+				C039D1A51517EE74007FFD0B /* ecs189ViewController.h */,
+				C039D1A61517EE74007FFD0B /* ecs189ViewController.m */,
+				C039D1971517EE74007FFD0B /* Supporting Files */,
+			);
+			path = DrawingAppJayShah;
+			sourceTree = "<group>";
+		};
+		C039D1971517EE74007FFD0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C039D1981517EE74007FFD0B /* DrawingAppJayShah-Info.plist */,
+				C039D1991517EE74007FFD0B /* InfoPlist.strings */,
+				C039D19C1517EE74007FFD0B /* main.m */,
+				C039D19E1517EE74007FFD0B /* DrawingAppJayShah-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C039D18B1517EE74007FFD0B /* DrawingAppJayShah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C039D1AA1517EE74007FFD0B /* Build configuration list for PBXNativeTarget "DrawingAppJayShah" */;
+			buildPhases = (
+				C039D1881517EE74007FFD0B /* Sources */,
+				C039D1891517EE74007FFD0B /* Frameworks */,
+				C039D18A1517EE74007FFD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingAppJayShah;
+			productName = DrawingAppJayShah;
+			productReference = C039D18C1517EE74007FFD0B /* DrawingAppJayShah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C039D1831517EE73007FFD0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "UC Davis";
+			};
+			buildConfigurationList = C039D1861517EE73007FFD0B /* Build configuration list for PBXProject "DrawingAppJayShah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C039D1811517EE73007FFD0B;
+			productRefGroup = C039D18D1517EE74007FFD0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C039D18B1517EE74007FFD0B /* DrawingAppJayShah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C039D18A1517EE74007FFD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039D19B1517EE74007FFD0B /* InfoPlist.strings in Resources */,
+				C039D1A41517EE74007FFD0B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C039D1881517EE74007FFD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039D19D1517EE74007FFD0B /* main.m in Sources */,
+				C039D1A11517EE74007FFD0B /* ecs189AppDelegate.m in Sources */,
+				C039D1A71517EE74007FFD0B /* ecs189ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C039D1991517EE74007FFD0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C039D19A1517EE74007FFD0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C039D1A21517EE74007FFD0B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C039D1A31517EE74007FFD0B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C039D1A81517EE74007FFD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C039D1A91517EE74007FFD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C039D1AB1517EE74007FFD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppJayShah/DrawingAppJayShah-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppJayShah/DrawingAppJayShah-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C039D1AC1517EE74007FFD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingAppJayShah/DrawingAppJayShah-Prefix.pch";
+				INFOPLIST_FILE = "DrawingAppJayShah/DrawingAppJayShah-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C039D1861517EE73007FFD0B /* Build configuration list for PBXProject "DrawingAppJayShah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C039D1A81517EE74007FFD0B /* Debug */,
+				C039D1A91517EE74007FFD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C039D1AA1517EE74007FFD0B /* Build configuration list for PBXNativeTarget "DrawingAppJayShah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C039D1AB1517EE74007FFD0B /* Debug */,
+				C039D1AC1517EE74007FFD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C039D1831517EE73007FFD0B /* Project object */;
+}
