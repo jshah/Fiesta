@@ -1,14 +1,14 @@
 //
-//  ecs189ViewController.m
-//  DrawingAppJayShah
+//  snappaViewController.m
+//  Snappa Stats
 //
-//  Created by Kabir Sikand on 3/19/12.
+//  Created by Kabir Sikand on 4/8/12.
 //  Copyright (c) 2012 UC Davis. All rights reserved.
 //
 
-#import "ecs189ViewController.h"
+#import "snappaViewController.h"
 
-@implementation ecs189ViewController
+@implementation snappaViewController
 
 - (void)didReceiveMemoryWarning
 {

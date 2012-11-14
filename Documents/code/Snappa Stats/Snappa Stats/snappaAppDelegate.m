@@ -1,14 +1,14 @@
 //
-//  ecs189AppDelegate.m
-//  DrawingAppJayShah
+//  snappaAppDelegate.m
+//  Snappa Stats
 //
-//  Created by Kabir Sikand on 3/19/12.
+//  Created by Kabir Sikand on 4/8/12.
 //  Copyright (c) 2012 UC Davis. All rights reserved.
 //
 
-#import "ecs189AppDelegate.h"
+#import "snappaAppDelegate.h"
 
-@implementation ecs189AppDelegate
+@implementation snappaAppDelegate
 
 @synthesize window = _window;
 
